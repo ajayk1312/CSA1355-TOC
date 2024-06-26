@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	char s[10];
+	int k;
+	printf("enter a string");
+	scanf("%s",s);
+	printf("%s",s);
+	k=strlen(s);
+	if(s[0]=='1' && s[k-1]=='1')
+	{
+	     printf("accepted");
+     }
+     else
+     {
+     	printf("not accepted");
+	}
+}
